@@ -1,7 +1,7 @@
 
 # INC (INC 'I's 'N'ot a 'C'ompiler) v1.0
 
-Author: Lucio A. Rocha
+Author: Lucio Agostinho Rocha
 
 Last update: 06-09-2024
 
