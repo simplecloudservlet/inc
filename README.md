@@ -12,25 +12,25 @@ An educational LL(1) parser.
 ---
 #### 2.1 Create a 'file.txt' (more examples in the 'languages' folder), e.g.:
 
->S
-%
-S
-A
-B
-C
-D
-%
-0
-1
-%
-\#
-%
-S->A
-A->0A1
-A->B
-B->C
-C->1C
-C->#
+> S
+> %
+> S
+> A
+> B
+> C
+> D
+> %
+> 0
+> 1
+> %
+> \#
+> %
+> S->A
+> A->0A1
+> A->B
+> B->C
+> C->1C
+> C->#
 
 #### 2.2 Run the INC, e.g.:
 >$ java -jar INC_app-1.0.jar file.txt 
