@@ -1,8 +1,9 @@
 
 # INC (INC 'I's 'N'ot a 'C'ompiler) v1.0
 
- Author: Lucio A. Rocha
- Last update: 06-09-2024
+Author: Lucio A. Rocha
+
+Last update: 06-09-2024
 
 ## 1. Description:
 An educational LL(1) parser.
@@ -218,14 +219,18 @@ E	9	-	9	-	8	9
 ## 7. (Opcional) How to compile and run (with Maven):
 
 > $ mvn clean install
+
 > $ java -jar target/INC_app-[VERSION].jar 
 
 
 ## 8. (Opcional) How to compile, pack and run (from source):
 
 > $ javac -cp . INC.java
+
 > $ jar cvf INC.jar *.class
+
 > $ java  -cp . INC <FILE.txt>
+
 > $ java -jar INC.jar <FILE.txt>
 
 ---
